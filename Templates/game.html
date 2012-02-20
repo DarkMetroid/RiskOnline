@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style type="text/css">  
+		  canvas { border: 1px solid black; }  
+		</style>  
+		<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}game.css" />
+		<script ="text/javascript" src="{{STATIC_URL}}game.js"></script>
+	</head>
+
+	<body id="thebody">
+		<canvas id='map' width="640" height="480" onload="draw();">Your browser does not support HTML5</canvas>
+		<div class='tLabel'  style='left:500px; width:500px; border-style:solid; border-width:5px; border-color:red;' id='mousepositionmessage'> X:0</div>		
+		<script ="text/javascript">		
+			draw(document.getElementById('map'), "{{STATIC_URL}}images/classic2.png")
+			ajaxDivData('{{request.path }}/?gp', getDivPositions);
+		</script>
+	</body>
+</html>
+

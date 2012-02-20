@@ -1,0 +1,88 @@
+/***** 	FONTS	*****/
+@font-face{
+	font-family: "Franchise";
+	src:url('./fonts/Franchise-Bold.ttf') format("truetype");
+}
+
+/*****	TOP TEXT IMAGE	*****/
+img.headerCaption{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+
+/*****	FOOTER BAR	*****/
+#footerBar{
+	clear:both;
+	list-style-type:none;
+	float:right;
+	margin-top:25px;
+	position: absolute;
+	bottom: 0px; 
+	right: 0px;
+}
+
+ul#footerBar li{
+	float:left;
+	padding:10px;
+	text-align:center;
+	vertical-align:bottom;
+}
+ul#footerBar a{
+	text-decoration:none;
+	color: #ed1c24;/*#BF192D;*/
+	font-size:13px;
+}
+
+ul#footerBar a:hover{
+	text-decoration:underline;
+}
+
+/*****	FORMS	*****/
+#main{
+	width:700px;
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#register{
+	width:50%;
+	float:left;
+	position:relative;
+	width:270px;
+	margin-left:50px;
+	border-right:1px dashed #ddd;
+}
+#login{
+	width:50%;
+	float:left;
+	position:relative;
+	width:270px;
+	margin-left:50px;
+
+
+}
+
+/*****	PAGE TEXT	*****/
+h{
+	font-size:35px;
+	font-family:Franchise;
+	color:  #e22205;
+}
+
+
+.myLabel{
+	font-size:14px;
+	font-family:Verdana;
+	color: #FFF;
+}
+	
+body{
+	margin-top:20px;
+	background:#fff url('./images/darkdenim3.png') 
+	repeat;
+	font-family:Helvetica,arial;
+	color:#333;
+}

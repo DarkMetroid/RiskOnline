@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<title>Welcome to Conquer Club</title>
+<link rel="stylesheet" href="{{STATIC_URL}}login.css" type="text/css" />
+<link rel="stylesheet" href="{{STATIC_URL}}bootstrap.css">
+<script ="text/javascript" src="{{STATIC_URL}}bootstrap-popover.js"></script>
+
+</head>
+
+<body>
+	<img class="headerCaption" src="{{STATIC_URL}}images/captiontxt.png" alt="Caption"/>
+	<div id="main">
+		
+		<div id="register">
+			<div class="inner" style="float:left">
+				<h>Enlist Today</h>
+				<form name="register" method="post" action="http://dummy.com/register" autocomplete="off">
+			
+				<p class="form">
+					<span class="myLabel"><label for="reg_email">Enter your email address</label></span>
+					<span class="field"><input maxlength="50" value="" type="email" name="reg_email" id="reg_email" class="reg-tooltip" title="Must be a valid email address." /></span>
+				                    </p>
+			
+				<p class="form">
+					<span class="myLabel"><label for="username">Choose a username</label></span>
+					<span class="field"><input maxlength="15" value="" type="text" name="username" id="username" class="reg-tooltip" title="Choose an alphanumeric username that the community will know you as." /></span>
+				                    </p>
+				
+				<p class="form">
+					<span class="myLabel"><label for="password">Choose a password</label></span>
+					<span class="field"><input maxlength="32" value="" type="password" name="reg_password" id="password" class="reg-tooltip" title="Create an unguessable alphanumeric password." /></span>
+				                    </p>
+				
+				<p class="form">
+					<span class="myLabel"><label for="cpassword">Confirm</label></span>
+					<span class="field"><input maxlength="32" value="" type="password" name="cpassword" id="cpassword" title="Confirm your password." class="reg-tooltip" /></span>
+				                    </p>
+			
+				</form>
+				<button class="btn primary">Register</button>
+
+			</div>
+		</div>
+		<div id="login">
+			<div class="inner" style="float:right">
+				<h>Join the Battle</h>
+				<form name="login" method="post" action="http://dummy.com/register" autocomplete="off">
+			
+				
+				<p class="form">
+					<span class="myLabel"><label for="username">Choose a username</label></span>
+					<span class="field"><input maxlength="15" value="" type="text" name="username" id="username" class="reg-tooltip" title="Choose an alphanumeric username that the community will know you as." /></span>
+				</p>
+				
+				<p class="form">
+					<span class="myLabel"><label for="password">Choose a password</label></span>
+					<span class="field"><input maxlength="32" value="" type="password" name="reg_password" id="password" class="reg-tooltip" title="Create an unguessable alphanumeric password." /></span>
+				</p>
+				</form>
+				<button class="btn primary">Log In</button>
+
+			</div>
+
+		 </div>
+
+
+	</div>
+
+
+   	<ul id="footerBar">
+        	<li><a href="http://dummy.com/info/">More Information</a></li>
+        	<li><a href="http://dummy.com/terms-of-use/">Terms of Use</a></li>
+        	<li><a href="http://dummy.com/privacy-statement/">Privacy Statement</a></li>
+        	<li><a href="http://dummy.com/contact/">Contact Us</a></li>
+   	 </ul>
+</body>
+</html>
+
